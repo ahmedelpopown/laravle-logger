@@ -1,0 +1,32 @@
+{
+    "name": "ahmedelpopown/laravel-logger",
+    "description": "logging laravel error",
+    "type": "library",
+    "require": {
+        "illuminate/support": "^10|^11|^12|^13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ahmedelpopown\\LaravelLogger\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+
+    },
+    "authors": [
+        {
+            "name": "Ahmed abdeldaym",
+            "email": "ahmedabdeldaem01000@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra":{
+        "laravel":{
+            "providers":[
+                "Ahmedelpopown\\LaravelLogger\\LaravelLoggerServiceProvider"
+            ]
+        }
+    }
+}
